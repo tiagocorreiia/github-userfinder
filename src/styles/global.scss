@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #232323;
+  --secondary-color: #ff214f;
+  --bg-color: #fafafa;
+  --text-light: 300;
+  --text-normal: 400;
+  --text-bold: 600;
+}
+
+body {
+  font-family: 'Rubik', sans-serif !important;
+  font-size: 62.5% !important;
+  font-weight: var(--text-normal) !important;
+  color: var(--primary-color) !important;
+  overflow-x: hidden;
+}

@@ -1,0 +1,35 @@
+.user {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .user__content {
+    width: 100%;
+
+    .row .col {
+      flex: 1;
+    }
+
+    p {
+      font-size: 1rem;
+      padding: 1.5rem 0;
+    }
+
+    .jumbotron {
+      width: 100%;
+
+      P {
+        font-size: 1.3rem;
+        font-weight: var(--text-light);
+      }
+
+      button:first-child {
+        margin-right: 1.5rem;
+      }
+    }
+  }
+}

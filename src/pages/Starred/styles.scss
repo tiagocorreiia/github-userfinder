@@ -1,0 +1,22 @@
+.starred {
+  position: relative;
+  width: 100vw;
+  padding-top: 10rem;
+  padding-bottom: 1.5rem;
+
+  .list-group {
+    width: 100%;
+    padding: 0 1rem;
+    text-transform: uppercase;
+
+    .list-group-item svg {
+      color: yellowgreen;
+      margin-right: 0.5rem;
+    }
+  }
+
+  p {
+    font-size: 1rem;
+    padding: 1.5rem 0;
+  }
+}

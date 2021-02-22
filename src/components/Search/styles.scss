@@ -1,0 +1,31 @@
+.search {
+  position: relative;
+  width: 100vw;
+
+  .input-group-append {
+    width: 30%;
+
+    .btn {
+      width: 100%;
+      text-transform: uppercase;
+      font-weight: var(--text-bold);
+    }
+  }
+
+  input {
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+
+    &::placeholder {
+      text-transform: uppercase;
+    }
+  }
+
+  @media (max-width: 420px) {
+    padding-top: 17rem;
+  }
+}
+
+.modal-body {
+  font-size: 1.5rem;
+}

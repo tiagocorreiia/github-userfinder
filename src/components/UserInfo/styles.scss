@@ -1,0 +1,38 @@
+.card {
+  margin-top: 1rem;
+
+  .card-header {
+    font-size: 1.5rem;
+  }
+
+  .card-title {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 2rem;
+    }
+  }
+
+  .card-img {
+    float: left;
+    width: 10.5rem;
+    padding-right: 1rem;
+
+    @media (max-width: 420px) {
+      float: none;
+      width: 100%;
+      padding-bottom: 1.5rem;
+    }
+  }
+
+  .card-text {
+    font-size: 1rem;
+    font-weight: var(--text-light);
+    padding-right: 20rem;
+
+    @media (max-width: 420px) {
+      padding-right: 5rem;
+    }
+  }
+}
